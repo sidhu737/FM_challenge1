@@ -16,14 +16,28 @@ function App() {
       ) : (
         <Rating submitRating={submitRating} />
       )}
-      {/* <Greeting /> */}
-      {/* <div class="attribution">
+
+      <div className="attribution absolute bottom-0 text-Orange">
         Challenge by{" "}
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target={"_blank"}
+          rel="noopener noreferrer"
+          className="underline"
+        >
           Frontend Mentor
         </a>
-        . Coded by <a href="https://github.com/sidhu737">Siddu</a>.
-      </div> */}
+        . Coded by{" "}
+        <a
+          href="https://github.com/sidhu737"
+          target={"_blank"}
+          rel="noopener noreferrer"
+          className="underline"
+        >
+          Siddu
+        </a>
+        .
+      </div>
     </div>
   );
 }
