@@ -1,0 +1,10 @@
+ul > li > button:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.main-container ul li button:focus {
+  background-color: hsl(217, 12%, 63%);
+  color: white;
+}
