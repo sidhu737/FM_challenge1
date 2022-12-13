@@ -3,7 +3,7 @@ import starLogo from "../images/icon-star.svg";
 import "./Rating.css";
 function Rating({ submitRating }) {
   const li_class =
-    "border p-3 border-none w-10 h-10 flex items-center  justify-center rounded-full bg-Light_Grey bg-opacity-10 text-Light_Grey text-sm listitems";
+    "border p-3 border-none w-10 h-10 flex items-center  justify-center rounded-full bg-Light_Grey bg-opacity-10 text-Light_Grey text-sm listitems sm:m-0 m-0.5";
   const [rating, setRating] = useState("1");
   const ratingHandler = (e) => {
     // console.log(e.target.value);
@@ -51,7 +51,7 @@ function Rating({ submitRating }) {
         </li>
       </ul>
       <button
-        className="w-full rounded-3xl mr-3 text-White tracking-widest font-semibold text-sm mt-4 h-11 bg-Orange"
+        className="w-full rounded-3xl mr-3  text-White tracking-widest font-semibold text-sm mt-4 h-11 bg-Orange"
         onClick={() => submitRating(rating)}
       >
         SUBMIT
